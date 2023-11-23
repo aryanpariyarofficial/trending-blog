@@ -1,0 +1,80 @@
+.containerr{
+    padding: 50px;
+    background-color: #050139a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerr .addBlog{
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    
+  }
+  form > h3{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:  20px 20px 10px 0px ;
+    /* margin-bottom: 10px; */
+  }
+  .formgroup{
+margin-top: 20px;
+display: flex;
+justify-content: flex-start;
+/* align-items: start; */
+/* flex-direction: column; */
+
+width: 600px;
+  }
+ .formgroup > label{
+  font-size: 15px;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ .formgroup > input,textarea{
+  font-size: 15px;
+  margin-left: 20px;
+  padding: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1px solid #050139a1;
+  border-radius: 5px;
+  /* width: full !important; */
+  width: 400px;
+  display: flex;
+
+ }
+ 
+ .formgroup > input:focus{
+  border: 1px solid #050139a1;
+  outline: none;
+  }
+.btnclass{
+  width: 100%;
+}
+
+  /* @media only screen and (max-width: 768px) {
+    .blogSection{
+      padding: 30px;
+      
+    }
+    .container {
+      padding: 15px;
+      flex-direction: column-reverse;
+      
+    } */
+    
+  /* }
+  
+  @media only screen and (max-width: 480px) {
+    .blogSection{
+      padding: 20px;
+    }
+    .container {
+      flex-direction: column-reverse;
+      padding: 10px;
+    }
+  
+  } */
